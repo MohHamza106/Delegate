@@ -26,10 +26,10 @@ namespace Delegate
 
             
 
-            LibraryEngine.ProcessBooks(myBook, BookFunction.GetTitle);
-            LibraryEngine.ProcessBooks(myBook, BookFunction.GetPrice);
-            LibraryEngine.ProcessBooks(myBook, delegate(Book book) {return book.ISBN; });
-            LibraryEngine.ProcessBooks(myBook, book => book.PublicationDate.ToShortDateString());
+            //LibraryEngine.ProcessBooks(myBook, BookFunction.GetTitle);
+            //LibraryEngine.ProcessBooks(myBook, BookFunction.GetPrice);
+            //LibraryEngine.ProcessBooks(myBook, delegate(Book book) {return book.ISBN; });
+            //LibraryEngine.ProcessBooks(myBook, book => book.PublicationDate.ToShortDateString());
 
         }
     }
